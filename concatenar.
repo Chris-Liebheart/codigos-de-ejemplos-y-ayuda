@@ -1,0 +1,24 @@
+#concatenar#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let nombre = 'Juan';
+     let apellido = 'Perez';
+     let precio = 500.00
+    
+     document.write('nombre: '+''+apellido);
+     document.write('<br>');
+     document.write('el precio es: '+precio);
+     document.write('<br>');
+     document.write('el precio es : ',precio); // concatenar.
+
+
+    </script>
+</body>
+</html>
